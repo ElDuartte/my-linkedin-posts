@@ -1,4 +1,5 @@
 # Post - 1
+
 🕵️‍♂️ ¿Qué es el Vibe Code?
 
 Es el código que sigue tendencias sin profundidad, el que se hace solo para “verse bien” o encajar en lo que está de moda.
@@ -6,11 +7,8 @@ Es el código que sigue tendencias sin profundidad, el que se hace solo para “
 ⚠️ ¿Por qué es peligroso para los nuevos programadores?
 
 Falta de fundamentos: Aprenden frameworks sin entender lo básico.
-
 Soluciones superficiales: Proyectos que parecen funcionar, pero no son escalables ni sostenibles.
-
 Expectativas equivocadas: Se enfocan en “hacerlo rápido” y no en hacerlo bien.
-
 Falsa confianza: Pensar que la moda es la solución a todo puede llevar a frustración.
 
 🔴 El resultado:
@@ -20,9 +18,10 @@ Aprendizaje incompleto que frena el crecimiento real.
 
 💥 Para los que están empezando: No se dejen engañar por el “vibe”. Es mejor entender lo que hay detrás que solo seguir la corriente.
 
-hashtag#Programación hashtag#DesarrolloDeSoftware hashtag#VibeCode hashtag#AprenderAProgramar
+#Programación #DesarrolloDeSoftware #VibeCode #AprenderAProgramar
 
 ---
+
 # Post - 2
 
 🤯 ¿Sabías que en JavaScript [] == ![] da como resultado true?
@@ -49,4 +48,40 @@ Todo esto sin errores ni advertencias. Magia oscura del motor de JS. 🧙‍♂�
 #JavaScript #WTFJS #DevLife #FrontendTips #Programación #CodeNerd
 
 ---
+
 # Post - 3
+
+Did you know that using `useMemo` and `useCallback` in React can actually slow down your app if misused? 🤯
+
+Many developers (myself included! 🙋‍♂️) fall into the trap of using them by default to make the code look "more professional."
+But the truth is: if you don't need them, you’re just adding unnecessary complexity and extra work for React. 🐢🚫
+
+🎯 What they really do:
+
++ `useMemo` memorizes a calculated value to avoid unnecessary recalculations.
++ `useCallback` memorizes a function to prevent unnecessary re-renders in child components.
+
+🔵 When they’re actually useful:
+
+Heavy computations (filtering, mapping large arrays)
+Passing functions to memoized components (`React.memo`)
+When proven necessary after profiling performance
+
+👉 If you’re unsure, it’s usually better not to use them until a real performance issue appears.
+
+👀 And if you’re a recruiter looking for frontend devs who love digging deep into React, let’s connect! 🙌
+#ReactJS #Frontend #WebDevelopment #SoftwareEngineering #CodingTips
+
+
+---
+
+# Post - 4
+
+🧪¿Qué tipo de tests debería escribir? 🧪
+No todos los tests son iguales:
+
+✅ Unit Tests → Prueban funciones individuales. Son rápidos y ayudan a detectar errores temprano.
+✅ Integration Tests → Verifican que distintas piezas funcionen juntas.
+✅ End-to-End (E2E) → Simulan el recorrido real de un usuario. Son más lentos, pero vitales para la experiencia final.
+
+#Testing #SoftwareEngineering #CleanCode #DevLife #opentowork
