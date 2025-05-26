@@ -85,3 +85,79 @@ No todos los tests son iguales:
 ✅ End-to-End (E2E) → Simulan el recorrido real de un usuario. Son más lentos, pero vitales para la experiencia final.
 
 #Testing #SoftwareEngineering #CleanCode #DevLife #opentowork
+
+---
+
+# Post - 5
+
+For the past few months, I’ve been learning Go — and it’s been a great ride so far! 🧠💪
+
+I’ve built a few fun projects, including an HTTP server with multiplexing, and now I’m working on a RESTful Task Manager API. Thanks to my background in JavaScript and TypeScript, picking up Go has been smoother than expected.
+
+Every time I learn a new language or tool, I feel like that scene from Infinity War — “one step closer” to becoming a better developer. 💪💻
+
+🔗Http server: https://lnkd.in/dQAbzQKz
+🔗Task Manager RESTful API: https://lnkd.in/dWcJi45d
+
+hashtag#opentowork hashtag#GoLang hashtag#BackendDevelopment hashtag#DevJourney hashtag#LearningByBuilding hashtag#SoftwareEngineering
+
+---
+
+# Post - 6
+
+🤖 ¿Qué es MCP (Model Context Protocol) y por qué debería interesarte si desarrollas aplicaciones web?
+
+OpenAI propuso MCP como un nuevo estándar para que las aplicaciones se comuniquen de forma más estructurada, clara y reutilizable con modelos de lenguaje como GPT, Claude o Deepseek.
+
+Pero si vienes del desarrollo web… esto va a sonar familiar 👇
+
+🧩 ¿Cómo funciona MCP?
+
+Divide el flujo en componentes bien definidos:
+🧠 Model → El modelo de IA (GPT, Claude, etc...)
+📦 Context → Info que el modelo necesita (usuario, historial, tareas…)
+🔧 Tools → Funciones externas que puede usar (APIs, base de datos, servicios)
+
+💡 ¿Te suena a React? No es coincidencia
+🔹 Context = props / state / context API
+Como en React, pasas info bien estructurada para que el "componente" (el modelo) funcione como esperas.
+🔹 Tools = APIs / hooks personalizados
+Igual que fetchData() o useAuth(), pero en vez de usarlos, los usa el modelo cuando los necesita.
+🔹 Schemas = TypeScript + JSON Schema
+Nada de prompts mágicos. Escribes todo. Defines entradas y salidas con claridad. ✨
+
+🛠️ ¿Por qué deberías prestarle atención como dev?
+
+Porque esto no es solo "IA haciendo texto".
+Es arquitectura de software adaptada al mundo AI-native.
+✅ Te permite estructurar mejor tu app
+✅ Hace que los modelos sean partes reales del sistema
+✅ Mejora la mantenibilidad y testeo
+✅ Te prepara para el futuro de la integración LLM
+
+hashtag#OpenToWork hashtag#DesarrolloWeb hashtag#AIForDevs hashtag#MCP hashtag#OpenAI hashtag#LLM hashtag#ReactJS hashtag#ArquitecturaDeSoftware hashtag#PromptEngineering hashtag#Frontend hashtag#DevTools hashtag#TechTrends
+
+
+---
+
+# Post - 7
+
+¿Qué son los microservicios?
+
+En vez de tener una app monolítica gigante, los microservicios dividen tu sistema en partes pequeñas e independientes: usuarios, pagos, mails... Cada una con su propia lógica, base de datos y despliegue
+
+⚙️ Ventajas clave:
+
++ Escala solo lo que lo necesitas 🔥
++ Cada equipo trabaja en su parte sin inconvenientes 🧑‍💻
++ Puedes usar distintos lenguajes por servicio 🌐
+
+Pero no todo es fácil…
+⚠️ Algunos Desafíos:
+
+- Comunicación entre servicios (REST, gRPC, colas)
+- Testing y debugging más complejos
+- Infraestructura distribuida (Docker, Kubernetes, etc.)
+
+
+hashtag#OpenToWork hashtag#Microservices hashtag#DevTips hashtag#Arquitectura hashtag#Backend hashtag#SoftwareEngineering
