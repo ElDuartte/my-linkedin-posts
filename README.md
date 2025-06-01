@@ -161,3 +161,23 @@ Pero no todo es fácil…
 
 
 hashtag#OpenToWork hashtag#Microservices hashtag#DevTips hashtag#Arquitectura hashtag#Backend hashtag#SoftwareEngineering
+
+
+---
+
+# Post - 8
+
+🤔🤔 Por curiosidad estaba investigando sobre como acortar URLs, esto fue lo que aprendí:
+
+Es uno de esos proyectos que parecen simples, pero esconden varios conceptos clave del desarrollo web. Lo mejor es que puedes hacerlo con HTML, JS y un poco de backend!
+
+El paso a paso:
+1️⃣ El usuario escribe una URL larga en un formulario (ej. "sitio-largo com/productos/categoria/123").
+2️⃣ Esa URL se envía al servidor (o una API externa...).
+3️⃣ El servidor genera un código corto aleatorio (tipo xYz9k1) y lo guarda junto a la URL original.
+4️⃣ El servidor devuelve una nueva URL corta: (tudominio.com/xYz9k1).
+5️⃣ Cuando alguien visita esa URL, el backend redirige al enlace original usando un 302 redirect.
+
+➕ Puedes escalarlo fácilmente con funciones serverless y guardado en Redis o Firebase. Incluso podrías añadir métricas de clics o expiración de enlaces😎
+
+hashtag#OpenToWork hashtag#DesarrolloWeb hashtag#NodeJS hashtag#FullStack hashtag#MiniProyectos hashtag#URLShortener hashtag#DevTips hashtag#JavaScript hashtag#AprendiendoProgramación
