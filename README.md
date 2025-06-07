@@ -181,3 +181,33 @@ El paso a paso:
 ➕ Puedes escalarlo fácilmente con funciones serverless y guardado en Redis o Firebase. Incluso podrías añadir métricas de clics o expiración de enlaces😎
 
 hashtag#OpenToWork hashtag#DesarrolloWeb hashtag#NodeJS hashtag#FullStack hashtag#MiniProyectos hashtag#URLShortener hashtag#DevTips hashtag#JavaScript hashtag#AprendiendoProgramación
+
+---
+
+# Post - 9
+
+¿Te has preguntado alguna vez cómo tu código puede calcular la serie de Fibonacci?
+
+🔍 En palabras simples
+
+🛣️ Caso base: Sabemos que Fibonacci(0) = 0 y Fibonacci(1) = 1. Son nuestros puntos de partida
+
+🔄 Iteración eficiente: En lugar de llamar a la función una y otra vez (recursión), usamos un bucle que va “avanzando” por la serie.
+
+🔢 Dos variables clave: Mantienes en memoria el valor “anterior” (a) y el “actual” (b). Al avanzar una posición, actualizas estos valores.
+
+🎯 Resultado al final: Cuando el bucle termina, “b” contiene Fibonacci(n), ¡y listo!
+
+🚀 ¿Por qué importa esto en software?
+Rendimiento: Evitas el “explosionado” de llamadas recursivas que consumen CPU y memoria.
+
+Escalabilidad: Un enfoque iterativo o memoizado es esencial en apps críticas (fintech, gaming, IoT…) donde cada milisegundo cuenta.
+
+Buenas prácticas: Aprender algoritmos básicos te prepara para retos más complejos: diseño de caches, rutas óptimas, análisis de datos…
+
+💡 Consejos prácticos
+Evita la recursión directa para valores grandes de n (> 40).
+Si necesitas muchos valores sucesivos, combina este método con un array para generar la secuencia completa.
+Mide siempre el tiempo de ejecución (console.time) cuando optimices.
+
+hashtag#OpenToWork hashtag#DesarrolloWeb hashtag#NodeJS hashtag#FullStack hashtag#MiniProyectos hashtag#URLShortener hashtag#DevTips hashtag#JavaScript hashtag#AprendiendoProgramación
